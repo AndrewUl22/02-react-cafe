@@ -1,8 +1,9 @@
-
-import css from './Notification.module.css';
+import style from "./Notification.module.css";
 
 export default function Notification() {
   return (
-    <p className={css.message}>No feedback yet</p>
+    <>
+      <p className={style.message}>No feedback yet</p>
+    </>
   );
 }
